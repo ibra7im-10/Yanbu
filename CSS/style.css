@@ -293,6 +293,12 @@ text-shadow: 1px 1px 3px var(--second-color);
     color: var(--main-color);
     font-weight: bold;
   }
+
+@media (max-width:480px) {
+    .product-container img{
+        width: 250px;
+    }
+}
 /******************** end products ********************************/
 
 
