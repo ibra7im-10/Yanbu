@@ -3,6 +3,85 @@
     --main-color: #FAB700;
     --second-color: #888888;
 }
+
+
+.product-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-buttons {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product-buttons button {
+  flex: 1;
+  min-width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #009879;
+}
+
+.btn-blue {
+  background-color: #0072b1;
+}
+
+h2, h3 {
+  color: #333;
+  margin-top: 25px;
+}
+
+.composition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.composition-table th,
+.composition-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .product-buttons {
+    flex-direction: column;
+  }
+
+  .product-buttons button {
+    width: 100%;
+  }
+}
+
+
 /**************** variables in css ********************************/
 
 /**************** start upbtn style ********************************/
